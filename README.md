@@ -1,4 +1,4 @@
-[![Ronak Shah — The Creative Universe](https://www.ronak-shah-portfolio.xyz/assets/profile/cover.png)](https://www.ronak-shah-portfolio.xyz/)
+[![Ronak Shah — The Creative Universe](assets/cover.png)](https://www.ronak-shah-portfolio.xyz/)
 
 # Ronak Shah
 
@@ -28,6 +28,6 @@ I’m an engineering student at K J Somaiya School of Engineering in Mumbai. I b
 
 ## Halftime arcade
 
-[![SIU! Shootout — an animated preview of a football flying into the goal](https://www.ronak-shah-portfolio.xyz/assets/profile/shootout.gif)](https://www.ronak-shah-portfolio.xyz/siu-shootout.html)
+[![SIU! Shootout — an animated preview of a football flying into the goal](assets/shootout.gif)](https://ronakshah167.github.io/ronakshah167/)
 
-**[Play SIU! Shootout ↗](https://www.ronak-shah-portfolio.xyz/siu-shootout.html)** · Seven Cristiano Ronaldo-inspired penalties. Watch the keeper, pick a lane, and try to beat your best score.
+**[Play SIU! Shootout ↗](https://ronakshah167.github.io/ronakshah167/)** · Seven Cristiano Ronaldo-inspired penalties. Swipe the ball toward the goal and watch the keeper dive. Keyboard controls are available too.

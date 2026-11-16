@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171722">
+  <meta name="description" content="A swipe-to-shoot, seven-penalty football game inspired by Cristiano Ronaldo.">
+  <link rel="stylesheet" href="shootout.css">
+  <script src="shootout.js" defer></script>
+  <title>SIU! Shootout — Ronak Shah</title>
+</head>
+<body>
+  <main class="shootout">
+    <a class="page-back" href="https://github.com/ronakshah167">← GitHub profile</a>
+    <header class="shootout-title">
+      <div>
+        <p class="shootout-kicker">HALFTIME ARCADE / CR7</p>
+        <h1><span>SIU!</span> SHOOTOUT</h1>
+        <p>Seven penalties. Pick your spot and beat the keeper.</p>
+      </div>
+      <span class="shirt" aria-hidden="true"><small>RONALDO</small>7</span>
+    </header>
+    <section class="shootout-panel" aria-label="Penalty shootout">
+      <div class="shootout-score">
+        <span>GOALS <strong id="goals">0</strong></span>
+        <ol id="attempts" class="attempts" aria-label="Seven penalty results"></ol>
+        <span>BEST <strong id="best">0</strong></span>
+      </div>
+      <div class="shootout-field" id="pitch">
+        <div class="pitch-box" aria-hidden="true"></div>
+        <div class="shootout-net" aria-hidden="true">
+          <div class="goal-lane"></div><div class="goal-lane"></div><div class="goal-lane"></div>
+        </div>
+        <span id="keeper" class="keeper" aria-hidden="true"></span>
+        <span id="aim" class="shootout-aim" aria-hidden="true" hidden></span>
+        <button id="ball" class="shootout-ball" type="button" aria-label="Football. Swipe or drag toward the goal" tabindex="-1" disabled><span aria-hidden="true">⚽</span></button>
+        <span id="burst" class="shootout-burst" aria-hidden="true" hidden></span>
+      </div>
+      <div class="shootout-controls" id="shootout-controls" aria-describedby="shootout-help">
+        <button type="button" data-target="0" disabled>← Left</button>
+        <button type="button" data-target="1" disabled>↑ Centre</button>
+        <button type="button" data-target="2" disabled>Right →</button>
+      </div>
+      <p class="shootout-status" id="match-status" role="status">Press Kick off to start.</p>
+      <div class="shootout-bottom">
+        <button type="button" id="kick-off" class="kick-off">Kick off</button>
+        <p id="shootout-help">Swipe the ball toward the net, or use the buttons or arrow keys.</p>
+      </div>
+      <noscript>Enable JavaScript to play the shootout.</noscript>
+    </section>
+  </main>
+</body>
+</html>
